@@ -1,0 +1,96 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@gov.au/body": "^2.2.0",
+    "@gov.au/buttons": "^3.0.7",
+    "@gov.au/core": "^3.4.2",
+    "@gov.au/footer": "^3.0.5",
+    "@gov.au/grid-12": "^2.1.0",
+    "@gov.au/header": "^4.1.12",
+    "@gov.au/headings": "^2.0.11",
+    "@gov.au/main-nav": "^1.0.7",
+    "@gov.au/skip-link": "^2.0.16",
+    "gatsby": "^2.4.2",
+    "gatsby-image": "^2.0.41",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-offline": "^2.1.0",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.36",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-source-strapi": "0.0.8",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "pancake": {
+    "auto-save": true,
+    "plugins": true,
+    "ignore": [],
+    "json": {
+      "enable": false,
+      "location": "pancake/",
+      "name": "pancake",
+      "content": {
+        "name": true,
+        "version": true,
+        "dependencies": true,
+        "path": true,
+        "settings": true
+      }
+    },
+    "js": {
+      "minified": true,
+      "modules": false,
+      "location": "pancake/js/",
+      "name": "pancake.min.js"
+    },
+    "css": {
+      "minified": true,
+      "modules": false,
+      "browsers": [
+        "last 2 versions",
+        "ie 8",
+        "ie 9",
+        "ie 10"
+      ],
+      "location": "pancake/css/",
+      "name": "pancake.min.css"
+    },
+    "sass": {
+      "modules": false,
+      "location": "pancake/sass/",
+      "name": "pancake.scss"
+    },
+    "react": {
+      "location": "pancake/react/"
+    }
+  }
+}
